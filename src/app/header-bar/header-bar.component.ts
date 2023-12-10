@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header-bar',
@@ -7,6 +7,26 @@ import { Component } from '@angular/core';
 })
 export class HeaderBarComponent {
   myTheme: string = "light";
+  isMenuOpen = false;
+
+  openMenu() {
+    this.isMenuOpen = true;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    const screenWidth = event.target.innerWidth;
+    console.log(screenWidth)
+
+    if (screenWidth > 767 && this.isMenuOpen) {
+      this.closeMenu();
+    }
+    console.log(this.isMenuOpen);
+  }
   
   switchTheme(): void {
     if (this.myTheme === "light")

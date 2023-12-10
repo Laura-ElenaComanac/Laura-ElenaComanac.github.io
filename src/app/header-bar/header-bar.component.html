@@ -3,10 +3,10 @@
         <img src="assets/ubb-cluj.jpg" class="img-fluid logo-image">
         <a class="navbar-brand bold-text-2 marg-left cont text-color">Laura-Elena Comanac</a>
         <div class="btn-group">
-            <button class="btn navbar-toggler" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <button class="btn navbar-toggler" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" (click)="openMenu()">
               <span class="navbar-toggler-icon container-end"></span>
             </button>
-            <ul class="dropdown-menu dropdown-menu-end">
+            <ul [ngClass]="{'hide-menu': !isMenuOpen}" class="dropdown-menu dropdown-menu-end">
                 <li><button class="dropdown-item" type="button" routerLink="/home">Home</button></li>
                 <li><button class="dropdown-item" type="button" routerLink="/projects">Projects</button></li>
                 <li><button class="dropdown-item" type="button" href="">Courses</button></li>
