@@ -72,6 +72,9 @@
         max-width: 80%;
         margin-top: 25%;
     }
+    .marg-top{
+        margin-top: 25%;
+    }
     .card-size{
         max-width: 100% !important;
         max-height: 50% !important;

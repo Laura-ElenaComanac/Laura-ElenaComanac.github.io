@@ -25,7 +25,6 @@ export class HeaderBarComponent {
     if (screenWidth > 767 && this.isMenuOpen) {
       this.closeMenu();
     }
-    console.log(this.isMenuOpen);
   }
   
   switchTheme(): void {
