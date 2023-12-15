@@ -1,0 +1,23 @@
+.container-grid {
+    margin-top: 4.5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: stretch;
+    width: 100%;
+}
+
+.item-start{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.item-end{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+body{
+    width: 100% !important;
+}
