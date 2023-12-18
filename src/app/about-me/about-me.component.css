@@ -188,3 +188,14 @@ body {
     position: fixed;
     margin-bottom: 10%;
 }
+
+.card-font{
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
+.title-font{
+    font-family: "sans-serif";
+    font-size: 30px;
+}
