@@ -87,6 +87,7 @@ body{
     }
     .paragraph{
         margin-bottom: 0;
+        margin-top: 0;
     }
 }
 
@@ -96,6 +97,7 @@ body{
     }
     .paragraph{
         margin-bottom: 0;
+        margin-top: 0;
     }
 }
 
@@ -105,6 +107,10 @@ body{
     }
     .paragraph{
         margin-bottom: 0;
+        margin-top: 0;
+    }
+    .container-cover{
+        font-size: 20px !important;
     }
 }
 
@@ -129,4 +135,11 @@ body{
     justify-content: center;
     font-size: 25px;
     line-height: 2;
+}
+
+.container-cover{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
 }

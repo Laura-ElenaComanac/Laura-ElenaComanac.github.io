@@ -10,13 +10,14 @@
     <body data-bs-theme={myTheme}>
         <app-header-bar></app-header-bar>
         <div class="container-fluid px-0">
-            <div class="row">
+            <div class="background-container">
+              <div class="bg-text row">
                 <div class="col-md-4">
                     <img src="assets/profile.jpg" class="img-fluid profile-image">
                 </div>
                 <div class="col-md-8">
                     <h1 class = "marg-top marg-left marg-bottom bold-text">Laura-Elena Comanac</h1>
-                    <p class = "marg-left marg-bottom body-text">Hello, I am a research fellow at Babeș-Bolyai Master's in Software Engineering.</p>
+                    <p class = "marg-left marg-bottom body-text">Hi, I am a research fellow at Babeș-Bolyai Master's in Software Engineering.</p>
                     <p class = "marg-left marg-bottom body-text">Babeș-Bolyai Computer Science Graduate in Cluj-Napoca.</p>
                     <p class = "marg-left marg-bottom body-text">Software Engineer in Web Development.</p>
                     <h2 class = "marg-top-3 marg-left marg-bottom bold-text">Let's get in touch!</h2>
@@ -41,11 +42,12 @@
                         </svg>
                     </button>
                 </div>
-                <h1 class = "marg-top-3 marg-left marg-bottom bold-text">Current Work</h1>
+              </div>
             </div>
         </div>
         
         <div class="row row-cols-1 row-cols-md-2 g-4">
+          <h1 class = "marg-top-3 marg-left marg-bottom bold-text">Current Work</h1>
             <div class="col-md-6">
               <div class="card card2 h-100 background" routerLink="/projects">
                 <div class="card-body">

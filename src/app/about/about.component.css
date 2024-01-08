@@ -1,50 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-body {
-  width:100%;
-  height:100%;
-  background:#ddd;
-  font-family: 'Montserrat', sans-serif;
-  font-size:99px;
-  text-align:center;
-  overflow-y: auto;
-  max-width: 1400px;
-  margin: 0 auto;
+.container-grid {
+  display: grid;
+  grid: auto / 1fr 1fr;
+  grid-template-areas: 
+  "text1 image1";
 }
 
-div {
-  position:absolute;
+.container-grid2 {
+  display: grid;
+  grid: auto / 1fr 1fr;
+  grid-template-areas: 
+  "image2 text2";
 }
 
-.main {
+.item-start{
+  grid-area: text1;
+  text-align: center;
   width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
 }
 
-svg {
+.item-end{
+  grid-area: image1;
+  text-align: center;
   width: 100%;
-  height: auto;
-  max-width: 100%;
 }
 
-@media (max-width: 1053px) {
-  .main {
-      max-width: 80%;
-      margin-top: 5%;
+.item-start2{
+  grid-area: image2;
+  text-align: center;
+  font-size: 30px;
+  justify-self: stretch;
+  align-self: stretch;
+  width: 100%;
+}
+
+.item-end2{
+  grid-area: text2;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+body{
+  width: 100% !important;
+}
+
+.marg{
+  margin-top: 4%;
+}
+
+@media screen and (max-width: 1500px){
+  .container-grid {
+      display: grid;
+      grid: 2fr 3fr / auto;
+      grid-template-areas: 
+      "image1"
+      "text1";
+      justify-items: stretch;
+      width: 100%;
   }
-}
-
-@media (max-width: 632px) {
-  .main {
-      max-width: 80%;
-      margin-top: 10%;
+  
+  .container-grid2 {
+      display: grid;
+      grid: 2fr 3fr / auto;
+      grid-template-areas: 
+      "image2"
+      "text2";
+      justify-items: stretch;
+      width: 100%;
   }
-}
 
-@media (max-width: 488px) {
-  .main {
-      max-width: 80%;
+  .marg{
       margin-top: 15%;
   }
+}
+
+
+@media screen and (max-width: 1670px){
+  .marg{
+      margin-top: 5%;
+  }
+  .paragraph{
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1330px){
+  .marg{
+      margin-top: 10%;
+  }
+  .paragraph{
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .marg{
+      margin-top: 20%;
+  }
+  .paragraph{
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+  .container-cover{
+    font-size: 20px !important;
+}
+}
+
+.text-container{
+  flex-direction: column;
+}
+
+.title{
+  font-family: "sans-serif";
+  color: #184a77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.paragraph{
+  font-family: 'Quicksand', sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.image{
+  height: 900px;
+}
+
+.border1{
+  border-radius: 51% 49% 0% 100% / 36% 29% 71% 64% ;
+}
+
+.border2{
+  border-radius:51% 49% 100% 0% / 36% 32% 68% 64% ;
+}
+
+.container-cover{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
