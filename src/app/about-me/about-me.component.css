@@ -72,9 +72,9 @@
         max-width: 80%;
         margin-top: 25%;
     }
-    .marg-top{
+    /* .marg-top{
         margin-top: 25%;
-    }
+    } */
     .card-size{
         max-width: 100% !important;
         max-height: 50% !important;
@@ -209,7 +209,7 @@ body {
 .container-cover{
     text-align: center;
     color: white;
-    font-size: 50px;
+    /* font-size: 50px; */
     font-family: sans-serif;
 }
 

@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
     styleUrl: './contact.component.css',
 })
 export class ContactComponent {
-
+    selectedFont: string = 'sans-serif';
+    selectedTextColor: string = 'black';
+    selectedSize: string = '20px';
+    selectedWeight: string = '300';
 }
