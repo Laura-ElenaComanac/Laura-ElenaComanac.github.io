@@ -1,3 +1,6 @@
-# LauraSite
+# LauraSite - Angular Website:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+## CSS Grid
+## CSS Flex
+## Bootstrap
+## Adaptive Web Design
