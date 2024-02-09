@@ -8,6 +8,7 @@ import { HeaderBarComponent } from './header-bar/header-bar.component';
 import { AboutComponent } from './about/about.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LazyLoadImageModule
   ],
   exports: [
     HeaderBarComponent
