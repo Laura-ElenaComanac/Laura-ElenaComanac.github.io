@@ -9,22 +9,8 @@
     margin-right: 0;
 }
 
-.logo-image{
-    width: 80px;
-    border-radius: 30%;
-    height: auto;
-}
-
-.text-color{
-    color: white !important;
-}
-
 .marg-top{
     margin-top: 15%;
-}
-
-.marg-top-2{
-    margin-top: 1%;
 }
 
 .marg-top-3{
@@ -35,30 +21,8 @@
     margin-bottom: 3%;
 }
 
-.marg-left{
-    margin-left: 8%;
-}
-
 .marg-left-3{
     margin-left: 15%;
-}
-
-.marg-left-2{
-    margin-left: 3%;
-}
-
-.marg-right{
-    margin-right: 35%;
-}
-
-.header-bar{
-    width: 100% !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.bg-cyan {
-    background-color: #184a77;
-    height: 50%;
 }
 
 @media (max-width: 1160px) {
@@ -72,9 +36,6 @@
         max-width: 80%;
         margin-top: 25%;
     }
-    /* .marg-top{
-        margin-top: 25%;
-    } */
     .card-size{
         max-width: 100% !important;
         max-height: 50% !important;
@@ -90,58 +51,13 @@
         border-radius: 0 !important;
     }
 }
-
-@media only screen and (max-width: 318px) {
-    .logo-image {
-        width: 20vw;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    .cont {
-        margin-left: 0%;
-    }
-}
-
-@media only screen and (max-width: 180px) {
-    .btn {
-      width: 20%;
-    }
-}
-
-.btn{
-    border-radius: 30%;
-}
-
-.moon{
-    max-width: 100%;
-    max-height: 100%;
-}
   
-.container-end {
-    display: flex;
-    justify-content: flex-end;
-}
-
 html, body {
     overflow-x: hidden;
 }
 
 body {
     font-family: sans-serif;
-}
-
-.bold-text{ 
-    font-weight: 500;
-}
-
-.bold-text-3{
-    font-family: sans-serif;
-}
-
-.bold-text-2{
-    font-family: cursive;
-    font-weight: 10 !important;
 }
 
 .body-text{
@@ -188,11 +104,6 @@ body {
     transform: scale(1.05);
     background-color: #87CEFA;
     z-index: 900;
-}
-
-.sticky {
-    position: fixed;
-    margin-bottom: 10%;
 }
 
 .card-font{

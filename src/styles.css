@@ -97,6 +97,6 @@ body {
   }
   
 .background-container > .bg-text > .col-md-4 > .img-fluid.profile-image {
-    flex-shrink: 0;
+    flex-shrink: 0; 
 }
   
