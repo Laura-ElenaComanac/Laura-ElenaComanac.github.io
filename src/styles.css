@@ -91,3 +91,12 @@ body {
 .hide-menu {
     display: none !important;
 }
+
+.app-header-bar > .header-bar > .nav > .img-fluid.logo-image {
+    flex-shrink: 0;
+  }
+  
+.background-container > .bg-text > .col-md-4 > .img-fluid.profile-image {
+    flex-shrink: 0;
+}
+  
