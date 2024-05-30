@@ -1,0 +1,15 @@
+.custom-navbar {
+    height: 80px; 
+    opacity: 0.70; 
+    background: linear-gradient(90deg, #F328C6 0%, #8C51E3 50%, #1F68D4 100%);
+}
+
+.menu-button{
+    border-radius: 50px;
+}
+
+.menu-button:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.7);
+    background-color: rgba(0, 0, 255, 0.7);
+    border-radius: 50px;
+}

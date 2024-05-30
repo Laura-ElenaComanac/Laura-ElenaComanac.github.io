@@ -23,4 +23,8 @@ export class AboutMeComponent {
   redirectToYouTube() {
     window.open('https://www.youtube.com/@laura-elenacomanac1490');
   }
+
+  redirectToPortofolio() {
+    window.open('https://www.behance.net/laura-eolaru');
+  }
 }

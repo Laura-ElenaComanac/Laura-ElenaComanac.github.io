@@ -119,16 +119,12 @@ body{
 }
 
 .title{
-    font-family: "sans-serif";
-    color: #184a77;
     padding-top: 10%;
     align-items: center;
     justify-content: center;
 }
 
 .paragraph{
-    font-family: sans-serif;
-    color: #184a77;
     padding: 5%;
     size: 50%;
     align-items: center;
@@ -139,7 +135,7 @@ body{
 
 .container-cover{
     text-align: center;
-    color: white;
+    color: #8C51E3;
     font-size: 50px;
     font-family: sans-serif;
 }

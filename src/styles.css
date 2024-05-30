@@ -12,6 +12,10 @@
     margin-top: 1%;
 }
 
+.marg-top-buttons{
+    margin-top: 20% !important;
+}
+
 .marg-left{
     margin-left: 8%;
 }
@@ -20,8 +24,12 @@
     margin-left: 3%;
 }
 
+.marg-left-links{
+    margin-left: 15%;
+}
+
 .marg-right{
-    margin-right: 35%;
+    margin-right: 45%;
 }
 
 .header-bar{

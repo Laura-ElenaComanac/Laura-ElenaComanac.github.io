@@ -1,13 +1,22 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header-bar',
   templateUrl: './header-bar.component.html',
   styleUrls: ['./header-bar.component.css']
 })
-export class HeaderBarComponent {
-  myTheme: string = "light";
+export class HeaderBarComponent implements OnInit {
+
+  redirectToYouTube(): void {
+    window.open('https://www.youtube.com/@laura-elenacomanac1490');
+  }
+
+  myTheme: string = "dark";
   isMenuOpen = false;
+
+  ngOnInit(): void {
+    document.body.setAttribute('data-bs-theme', this.myTheme);
+  }
 
   openMenu() {
     this.isMenuOpen = true;
@@ -20,7 +29,6 @@ export class HeaderBarComponent {
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     const screenWidth = event.target.innerWidth;
-    console.log(screenWidth)
 
     if (screenWidth > 767 && this.isMenuOpen) {
       this.closeMenu();
@@ -28,10 +36,10 @@ export class HeaderBarComponent {
   }
   
   switchTheme(): void {
-    if (this.myTheme === "light")
-      this.myTheme = "dark";
-    else
+    if (this.myTheme === "dark")
       this.myTheme = "light";
+    else
+      this.myTheme = "dark";
     document.body.setAttribute('data-bs-theme', this.myTheme);
   }
 }
