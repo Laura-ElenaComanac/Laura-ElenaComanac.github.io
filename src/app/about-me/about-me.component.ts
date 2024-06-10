@@ -27,4 +27,8 @@ export class AboutMeComponent {
   redirectToPortofolio() {
     window.open('https://www.behance.net/laura-eolaru');
   }
+
+  redirectToUX() {
+    window.open('https://drive.google.com/file/d/1WXM7j0ZzAMcirYyzbVO8e5sNnu1OZqin/view?usp=sharing');
+  }
 }
