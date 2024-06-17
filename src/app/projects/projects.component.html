@@ -8,23 +8,48 @@
 <app-header-bar></app-header-bar>
     <body>
         <div class="position-relative text-center container-cover">
-            <img src="assets/canvas.webp" class="img-fluid profile-image" loading="lazy">
-            <div class="position-absolute top-50 start-50 translate-middle">Web Design is My Canvas</div>
+            <img src="assets/canvas.jpg" class="img-fluid profile-image" loading="lazy">
+            <div class="position-absolute top-50 start-50 translate-middle">UI UX Design is My Canvas</div>
         </div>
         <div class="container-grid">
             <div class="item-start text-container">
                <h1 class="title">TripVibe</h1>
                <section class="paragraph">
-                    This trip itinerary planning application is your passport to seamless travel: organizes accommodations, must-try local cuisines, and marks your calendar with attractions, events and festivals. Effortlessly sync your plans across devices and join us as we turn your travel aspirations into vibrant, unforgettable realities, one itinerary at a time.
+                    This trip itinerary planning application is your passport to seamless travel: organizes accommodations, must-try local cuisines, and marks your calendar with attractions, events and festivals. Effortlessly sync your plans across devices and join us as we turn your travel aspirations into vibrant, unforgettable realities, one step at a time.
+                </section>
+            </div>
+            <div [ngClass]="['bg-image', 'item-end', 'hover-overlay', 'hover-zoom', 'hover-shadow', 'ripple']">
+                <img src="assets/TripVibe.png" class="img-fluid profile-image" loading="lazy" alt="Trip Vibe">
+                <a href="#!">
+                  <div [ngStyle]="{'background-color': 'rgba(57, 192, 237, 0.2)'}"></div>
+                </a>
+            </div>              
+        </div>
+        <div class="container-grid2">
+            <div class="item-start2">
+                <img src="assets/Elysian.png" class="img-fluid profile-image" loading="lazy">
+            </div>
+            <div class="item-end2">
+                <h1 class="title">Elysian</h1>
+                <section class="paragraph">
+                    Welcome to Elysian, where unparalleled luxury meets the serene beauty of nature. We specialize in crafting exquisite, nature-inspired spaces that exude elegance and tranquility. Let us transform your home into a bespoke sanctuary, where every detail reflects the harmony of natural splendor.
+                </section>
+            </div>
+        </div>
+        <div class="container-grid">
+            <div class="item-start">
+                <h1 class="title">W.R.</h1>
+                <section class="paragraph">
+                    Introducing the ultimate gateway to limitless virtual reality experiences. Dive into a boundless universe where your imagination sets no limits. Whether you seek adventure, creativity, or relaxation, W.R. offers an unparalleled, immersive experience tailored to your every desire. Explore endless possibilities, connect with others, and transform your reality with the touch of a button.
                 </section>
             </div>
             <div class="item-end">
-                <img src="assets/TripVibe.png" class="img-fluid profile-image" loading="lazy">
+                <img src="assets/WR.png" class="img-fluid profile-image" loading="lazy">
             </div>
         </div>
         <div class="container-grid2">
             <div class="item-start2">
-                <img src="assets/WordPress.webp" class="img-fluid profile-image" loading="lazy">
+                <img src="assets/MyHeaven.png" class="img-fluid profile-image" loading="lazy">
             </div>
             <div class="item-end2">
                 <h1 class="title">MyHeaven</h1>
@@ -41,7 +66,7 @@
                 </section>
             </div>
             <div class="item-end">
-                <img src="assets/Projy.webp" class="img-fluid profile-image" loading="lazy">
+                <img src="assets/Projy.png" class="img-fluid profile-image" loading="lazy">
             </div>
         </div>
     </body>
