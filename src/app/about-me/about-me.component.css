@@ -92,7 +92,7 @@ html, body {
 }
 
 .card-size{
-    height: 550px;
+    height: 100%;
 }
 
 .background{
@@ -122,6 +122,7 @@ html, body {
     transform: scale(1.05);
     background-color: rgba(0, 0, 255, 0.7);
     z-index: 900;
+    transition: .4s ease-in-out;
 }
 
 .but:hover{
@@ -148,3 +149,14 @@ html, body {
 
 }
 
+.imgBox {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .imgBox .proj {
+    display: block;
+    transition: .5s ease-in-out;
+  }
+  .imgBox:hover .proj {
+    transform: scale(1.1);
+  }

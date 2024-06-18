@@ -5,7 +5,7 @@
     "text1 image1";
     justify-items: stretch;
     width: 100%;
-    border-bottom: 0.5px solid #184a77;
+    border-bottom: 0.1px solid white;
 }
 
 .container-grid2 {
@@ -15,7 +15,7 @@
     "image2 text2";
     justify-items: stretch;
     width: 100%;
-    border-bottom: 0.5px solid #184a77;
+    border-bottom: 0.1px solid white;
 }
 
 .item-start{
@@ -85,7 +85,11 @@ body{
     .marg{
         margin-top: 5%;
     }
-    .paragraph{
+    .paragraph2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .paragraph1{
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -95,7 +99,11 @@ body{
     .marg{
         margin-top: 10%;
     }
-    .paragraph{
+    .paragraph2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .paragraph1{
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -105,7 +113,11 @@ body{
     .marg{
         margin-top: 20%;
     }
-    .paragraph{
+    .paragraph2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .paragraph1{
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -118,19 +130,38 @@ body{
     flex-direction: column;
 }
 
-.title{
+.title1{
     padding-top: 10%;
     align-items: center;
     justify-content: center;
+    margin-left: 10% !important;
 }
 
-.paragraph{
+.title2{
+    padding-top: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10% !important;
+}
+
+.paragraph1{
     padding: 5%;
-    size: 50%;
+    size: 60%;
     align-items: center;
     justify-content: center;
     font-size: 25px;
     line-height: 2;
+    margin-left: 10% !important;
+}
+
+.paragraph2{
+    padding: 5%;
+    size: 60%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 2;
+    margin-right: 10% !important;
 }
 
 .container-cover{
@@ -139,3 +170,15 @@ body{
     font-size: 60px;
     font-family: sans-serif;
 }
+
+.imgBox {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .imgBox .proj {
+    display: block;
+    transition: .5s ease-in-out;
+  }
+  .imgBox:hover .proj {
+    transform: scale(1.1);
+  }

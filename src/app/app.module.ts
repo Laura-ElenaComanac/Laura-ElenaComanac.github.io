@@ -9,6 +9,11 @@ import { AboutComponent } from './about/about.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { TripvibeComponent } from './ux/tripvibe/tripvibe.component';
+import { WRComponent } from './ux/wr/wr.component';
+import { ElysianComponent } from './ux/elysian/elysian.component';
+import { MyheavenComponent } from './ux/myheaven/myheaven.component';
+import { ProjyComponent } from './ux/projy/projy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
     HeaderBarComponent,
     AboutComponent,
     PortofolioComponent,
-    ContactComponent
+    ContactComponent,
+    TripvibeComponent,
+    WRComponent,
+    ElysianComponent,
+    MyheavenComponent,
+    ProjyComponent
   ],
   imports: [
     BrowserModule,

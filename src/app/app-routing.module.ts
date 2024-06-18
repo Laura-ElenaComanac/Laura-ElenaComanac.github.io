@@ -5,6 +5,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
 import { PortofolioComponent } from './portofolio/portofolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { TripvibeComponent } from './ux/tripvibe/tripvibe.component';
+import { WRComponent } from './ux/wr/wr.component';
+import { ElysianComponent } from './ux/elysian/elysian.component';
+import { ProjyComponent } from './ux/projy/projy.component';
+import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -13,6 +18,11 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'portofolio', component: PortofolioComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'tripvibe', component: TripvibeComponent },
+  { path: 'wr', component: WRComponent },
+  { path: 'elysian', component: ElysianComponent },
+  { path: 'projy', component: ProjyComponent },
+  { path: 'myheaven', component: MyheavenComponent },
 ];
 
 @NgModule({
