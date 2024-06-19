@@ -5,11 +5,11 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
-export class AboutComponent implements OnInit, AfterViewInit {
+export class AboutComponent implements OnInit{
+  
   ngOnInit(): void {
-  }
-  ngAfterViewInit(): void {
-  }
+    window.scroll(0, 0);
+}
   
 }
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about-me',
@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me.component.css']
 })
 
-export class AboutMeComponent {  
+export class AboutMeComponent implements OnInit{
+  
+  ngOnInit(): void {
+    window.scroll(0, 0);
+}
 
   redirectToLinkedin() {
     window.open('https://www.linkedin.com/in/laura-elena-comanac-23b20b1a6/');

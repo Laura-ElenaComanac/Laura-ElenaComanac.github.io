@@ -5,5 +5,9 @@ import { AfterViewInit, Component, OnInit, ComponentFactoryResolver, ViewChild, 
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent {
+export class ProjectsComponent  implements OnInit{
+  
+  ngOnInit(): void {
+    window.scroll(0, 0);
+}
 }
