@@ -9,7 +9,7 @@
 .laptop-image{
     margin-top: 10%;
     margin-left: 15%;
-    height: 700px;
+    height: 80%;
 }
 
 .header{
@@ -49,16 +49,16 @@
     margin-left: 15%;
 }
 
-@media (max-width: 1160px) {
-    .profile-image {
-        margin-top: 35%;
+@media (max-width: 704px) {
+    .laptop-image{
+        display: none;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1595px) {
     .profile-image {
         max-width: 80%;
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .card-size{
         max-width: 100% !important;
@@ -70,6 +70,18 @@
     }
     .background-container{
         border-radius: 0 !important;
+    }
+    .header{
+       font-size: 60px;
+    }
+    .marg-left-links{
+        margin-left: 8%;
+    }
+    .marg-top-buttons{
+        margin-bottom: 10%;
+    }
+    .laptop-image{
+        margin-top: 20%;
     }
 }
   
