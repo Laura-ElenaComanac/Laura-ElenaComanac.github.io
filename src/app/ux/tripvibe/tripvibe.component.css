@@ -11,5 +11,10 @@
 }
 
 .marg-right{
-    margin-right: 10% !important;
+    margin-right: 8% !important;
+}
+
+.image {
+    width: 90%;
+    height: auto;
 }
