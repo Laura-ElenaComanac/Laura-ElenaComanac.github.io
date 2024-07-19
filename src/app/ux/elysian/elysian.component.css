@@ -13,3 +13,8 @@
 .marg-right{
     margin-right: 10% !important;
 }
+
+.image {
+    width: 90%;
+    height: auto;
+}
