@@ -18,21 +18,22 @@
     border-bottom: 0.1px solid white;
 }
 
+.grid-border{
+    border-top: 0.1px solid white;
+}
+
 .item-start{
     grid-area: text1;
-    text-align: center;
     width: 100%;
 }
 
 .item-end{
     grid-area: image1;
-    text-align: center;
     width: 100%;
 }
 
 .item-start2{
     grid-area: image2;
-    text-align: center;
     font-size: 30px;
     width: 100%;
     justify-self: stretch;
@@ -42,7 +43,6 @@
 .item-end2{
     grid-area: text2;
     font-size: 30px;
-    text-align: center;
     width: 100%;
 }
 
@@ -131,10 +131,8 @@ body{
 }
 
 .title1{
+    padding-bottom: 10%;
     padding-top: 10%;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10% !important;
 }
 
 .title2{
@@ -147,8 +145,6 @@ body{
 .paragraph1{
     padding: 5%;
     size: 60%;
-    align-items: center;
-    justify-content: center;
     font-size: 25px;
     line-height: 2;
     margin-left: 10% !important;
@@ -157,15 +153,12 @@ body{
 .paragraph2{
     padding: 5%;
     size: 60%;
-    align-items: center;
-    justify-content: center;
     font-size: 25px;
     line-height: 2;
     margin-right: 10% !important;
 }
 
 .container-cover{
-    text-align: center;
     color: white;
     font-size: 60px;
     font-family: sans-serif;

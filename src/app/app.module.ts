@@ -13,6 +13,7 @@ import { WRComponent } from './ux/wr/wr.component';
 import { ElysianComponent } from './ux/elysian/elysian.component';
 import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 import { ProjyComponent } from './ux/projy/projy.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjyComponent } from './ux/projy/projy.component';
     WRComponent,
     ElysianComponent,
     MyheavenComponent,
-    ProjyComponent
+    ProjyComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+import { Component, HostListener, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-portfolio',
+  templateUrl: './portfolio.component.html',
+  styleUrl: './portfolio.component.css'
+})
+export class PortfolioComponent implements OnInit {
+  ngOnInit(): void {
+    window.scroll(0, 0);
+  }
+
+}

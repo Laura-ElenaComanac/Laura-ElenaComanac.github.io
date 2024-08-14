@@ -3,13 +3,35 @@
     height: auto;
     margin-top: 15%;
     margin-bottom: 0;
+}
+
+.contact{
     margin-left: 10%;
+    font-size: 60px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.marg-left-title{
+    margin-left: 10% !important;
+}
+
+.marg-left-profile{
+    margin-left: 10% !important;
+}
+
+.text-font-intro2{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.text-font-intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
 
 .laptop-image{
-    margin-top: 10%;
-    margin-left: 15%;
-    height: 80%;
+    margin-top: 15%;
 }
 
 .header{
@@ -20,13 +42,12 @@
     font-size: 35px;
 }
 
-
-.back{
-    background-color: #352641;
+.marg-top{
+    margin-top: 35%;
 }
 
-.marg-top{
-    margin-top: 50%;
+.marg-top-contact{
+    margin-top: 40%;
 }
 
 .marg-top-headline{
@@ -34,11 +55,11 @@
 }
 
 .marg-top-porto{
-    margin-top: 20%;
+    margin-top: 7%;
 }
 
 .marg-top-3{
-    margin-top: 5%;
+    margin-top: 20%;
 }
 
 .marg-bottom{

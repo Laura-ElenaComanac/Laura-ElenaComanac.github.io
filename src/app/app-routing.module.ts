@@ -9,11 +9,12 @@ import { WRComponent } from './ux/wr/wr.component';
 import { ElysianComponent } from './ux/elysian/elysian.component';
 import { ProjyComponent } from './ux/projy/projy.component';
 import { MyheavenComponent } from './ux/myheaven/myheaven.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: AboutMeComponent },
-  { path: 'portofolio', component: ProjectsComponent },
+  { path: 'portofolio', component: PortfolioComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'tripvibe', component: TripvibeComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'elysian', component: ElysianComponent },
   { path: 'projy', component: ProjyComponent },
   { path: 'myheaven', component: MyheavenComponent },
+
 ];
 
 @NgModule({
