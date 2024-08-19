@@ -9,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class AboutMeComponent implements OnInit{
   
   ngOnInit(): void {
-    window.scroll(0, 0);
 }
 
   redirectToLinkedin() {

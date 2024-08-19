@@ -8,6 +8,5 @@ import { AfterViewInit, Component, OnInit, ComponentFactoryResolver, ViewChild, 
 export class ProjectsComponent  implements OnInit{
   
   ngOnInit(): void {
-    window.scroll(0, 0);
 }
 }

@@ -9,24 +9,24 @@
 <body>
     <div class="position-relative text-center container-cover full-screen-image">
         <div class="position-absolute top-50 start-50 translate-middle container">
-            <div class="item text-class">Contact</div>
+            <div class="item text-class text-font">Contact</div>
             <div  class="item">
               <input
                [ngStyle]="{ fontFamily: selectedFont, color: selectedTextColor, fontSize: selectedSize, fontWeight: selectedWeight }" 
-              id="name" type="text" class="form-control" placeholder="Name" class="rounded-box input-class">
+              id="name" type="text" class="form-control text-font" placeholder="Name" class="rounded-box input-class">
             </div>
             <div class="item">
                 <input
                  [ngStyle]="{ fontFamily: selectedFont, color: selectedTextColor, fontSize: selectedSize, fontWeight: selectedWeight }" 
-                id="email" type="text" class="form-control" placeholder="Email" class="rounded-box input-class">
+                id="email" type="text" class="form-control text-font" placeholder="Email" class="rounded-box input-class">
               </div>
               <div class="item">
                 <textarea
                  [ngStyle]="{ fontFamily: selectedFont, color: selectedTextColor, fontSize: selectedSize, fontWeight: selectedWeight }" 
-                id="message" type="text" class="form-control" placeholder="Message" class="rounded-box input-class message"></textarea>
+                id="message" type="text" class="form-control text-font" placeholder="Message" class="rounded-box input-class message"></textarea>
               </div>
             <div class="item">
-              <button class="button" type="submit">SEND</button>
+              <button class="button text-font" type="submit">Send Message</button>
             </div>
         </div>
     </div>

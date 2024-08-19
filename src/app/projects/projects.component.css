@@ -8,6 +8,10 @@
     border-bottom: 0.1px solid white;
 }
 
+.thinner{
+    font-weight: 300;
+}
+
 .container-grid2 {
     display: grid;
     grid: auto / 3fr 2fr;

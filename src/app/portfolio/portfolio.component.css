@@ -1,0 +1,13 @@
+.centered-left {
+    position: absolute;
+    top: 63%;
+    left: 0;
+    transform: translate(0, -50%);
+    text-align: left;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    font-size: 4vw;
+    font-weight: 200px;
+}

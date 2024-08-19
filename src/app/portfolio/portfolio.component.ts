@@ -7,7 +7,6 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
-    window.scroll(0, 0);
   }
 
 }
