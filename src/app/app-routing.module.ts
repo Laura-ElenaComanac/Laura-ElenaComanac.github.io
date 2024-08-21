@@ -10,6 +10,7 @@ import { ElysianComponent } from './ux/elysian/elysian.component';
 import { ProjyComponent } from './ux/projy/projy.component';
 import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FitairComponent } from './ux/fitair/fitair.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'elysian', component: ElysianComponent },
   { path: 'projy', component: ProjyComponent },
   { path: 'myheaven', component: MyheavenComponent },
+  { path: 'fitair', component: FitairComponent },
 
 ];
 

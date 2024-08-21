@@ -14,6 +14,7 @@ import { ElysianComponent } from './ux/elysian/elysian.component';
 import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 import { ProjyComponent } from './ux/projy/projy.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FitairComponent } from './ux/fitair/fitair.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ElysianComponent,
     MyheavenComponent,
     ProjyComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    FitairComponent
   ],
   imports: [
     BrowserModule,
