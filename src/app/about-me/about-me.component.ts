@@ -20,7 +20,7 @@ export class AboutMeComponent implements OnInit{
   }
 
   openEmail() {
-    window.location.href = 'mailto:laura.elena.olaru@gmail.com';
+    window.location.href = 'mailto:laura.elena.comanac@gmail.com';
   }
 
   redirectToYouTube() {
