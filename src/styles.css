@@ -21,6 +21,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.material-icons{
+    font-family: 'Material Icons' !important;
+}
+
 .centered{
     text-align: center;
 }

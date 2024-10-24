@@ -20,8 +20,26 @@
   font-size: 3vw;
 }
 
+.custom-card {
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+}
+.card-content {
+  padding: 8px 16px 8px 24px;
+}
+
 .marg-left-hi{
   margin-left: 20%;
+}
+
+.marg-l{
+  margin-left: 5%;
+}
+
+.margins{
+  margin-top: 180px;
+  margin-left: 10%;
 }
 
 .about-me{
@@ -132,6 +150,10 @@ body{
   .marg-left-hi{
     margin-left: 10px;
   }
+
+  .hid{
+    display: none;
+  }
 }
 
 
@@ -157,6 +179,9 @@ body{
   }
   .t-f{
     font-size: 50px;
+  }
+  .hid{
+    display: none;
   }
 }
 
@@ -186,6 +211,9 @@ body{
   .hi{
     margin-left: 10px;
   }
+  .hid{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 750px){
@@ -213,6 +241,9 @@ body{
   }
   .t-f{
     font-size: 50px;
+  }
+  .hid{
+    display: none;
   }
 }
 
