@@ -146,12 +146,8 @@ body{
       margin-top: 15%;
   }
 
-  .marg-left-hi{
-    margin-left: 10px;
-  }
-
-  .hid{
-    display: none;
+  .image-margin{
+    margin-left: 20%;
   }
 }
 
@@ -173,14 +169,12 @@ body{
     margin-bottom: 0;
     border-radius: 100px;
   }
-  .marg-left-hi{
-    margin-left: 10px;
-  }
   .t-f{
     font-size: 50px;
   }
-  .hid{
-    display: none;
+
+  .image-margin{
+    margin-left: 20%;
   }
 }
 
@@ -202,20 +196,23 @@ body{
     border-radius: 100px;
   }
   .marg-left-hi{
-    margin-left: 10px;
+    margin-left: 10%;
   }
   .t-f{
     font-size: 50px;
   }
-  .hi{
+  .hi{ 
     margin-left: 10px;
+  }
+  .image-margin{
+    margin-left: 10%;
   }
   .hid{
     display: none;
   }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 458px){
   .marg{
       margin-top: 20%;
   }
@@ -235,8 +232,8 @@ body{
     margin-bottom: 0;
     border-radius: 100px;
   }
-  .hi{
-    margin-left: 10px;
+  .marg-left-hi{
+    margin-left: 5%;
   }
   .t-f{
     font-size: 50px;
