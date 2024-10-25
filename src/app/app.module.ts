@@ -15,6 +15,7 @@ import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 import { ProjyComponent } from './ux/projy/projy.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FitairComponent } from './ux/fitair/fitair.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FitairComponent } from './ux/fitair/fitair.component';
     MyheavenComponent,
     ProjyComponent,
     PortfolioComponent,
-    FitairComponent
+    FitairComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
