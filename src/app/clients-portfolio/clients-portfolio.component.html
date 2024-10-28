@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laura Comanac">
+</head>
+<app-header-bar></app-header-bar>
+<body>
+    <div class="position-relative text-center container-cover full-screen-image">
+        <div class="position-absolute top-50 start-50 translate-middle container">
+            <div class="item text-class text-font">Login</div>
+            <div class="item">
+              <input [(ngModel)]="username"
+               [ngStyle]="{ fontFamily: selectedFont, color: selectedTextColor, fontSize: selectedSize, fontWeight: selectedWeight }" 
+                id="username" type="text" class="form-control text-font" placeholder="Username" class="rounded-box input-class size">
+            </div>
+            <div class="item">
+                <input [(ngModel)]="password"
+                 [ngStyle]="{ fontFamily: selectedFont, color: selectedTextColor, fontSize: selectedSize, fontWeight: selectedWeight }" 
+                id="password" type="text" class="form-control text-font" placeholder="Password" class="rounded-box input-class size">
+            </div>
+            <div class="row margin-bottom">
+                <div class="item">
+                <button class="button button-color text-font" type="submit">See Projects</button>
+                </div>
+                <div class="item">
+                    <button class="button text-font" type="submit">Request Credentials</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -16,6 +16,10 @@ import { ProjyComponent } from './ux/projy/projy.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FitairComponent } from './ux/fitair/fitair.component';
 import { FooterComponent } from './footer/footer.component';
+import { AuthGuard } from './auth-guard/auth-guard.component';
+import { ClientsComponent } from './clients/clients.component';
+import { FormsModule } from '@angular/forms';
+import { ClientsPortfolioComponent } from './clients-portfolio/clients-portfolio.component';
 
 @NgModule({
   declarations: [
@@ -32,17 +36,22 @@ import { FooterComponent } from './footer/footer.component';
     ProjyComponent,
     PortfolioComponent,
     FitairComponent,
-    FooterComponent
+    FooterComponent,
+    ClientsComponent,
+    ClientsPortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LazyLoadImageModule
+    LazyLoadImageModule,
+    FormsModule
   ],
   exports: [
     HeaderBarComponent
   ],
-  providers: [],
+  providers: [
+    AuthGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

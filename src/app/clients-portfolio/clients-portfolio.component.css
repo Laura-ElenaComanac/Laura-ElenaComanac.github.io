@@ -86,14 +86,13 @@ button:hover {
     color: black;
 }
 
+.size{
+    height: 40px;
+}
+
 .styling-container{
     font-family: 'Montserrat', sans-serif;
 
-}
-
-button{
-    background-color:#1958be;
-    color: white;
 }
 
 body, html {
@@ -109,3 +108,13 @@ body, html {
     background-size: cover;
     background-position: center;
 }
+
+.margin-bottom{
+    margin-bottom: 5%!important;
+}
+
+.button-color{
+    background-color:#1958be;
+    color: white;
+}
+

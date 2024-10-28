@@ -20,6 +20,7 @@ export class FooterComponent implements OnInit{
   }
 
   openEmail() {
+    console.log("works!")
     window.location.href = 'mailto:laura.elena.comanac@gmail.com';
   }
 
