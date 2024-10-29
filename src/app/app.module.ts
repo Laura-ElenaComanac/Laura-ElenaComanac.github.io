@@ -16,10 +16,7 @@ import { ProjyComponent } from './ux/projy/projy.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FitairComponent } from './ux/fitair/fitair.component';
 import { FooterComponent } from './footer/footer.component';
-import { AuthGuard } from './auth-guard/auth-guard.component';
-import { ClientsComponent } from './clients/clients.component';
 import { FormsModule } from '@angular/forms';
-import { ClientsPortfolioComponent } from './clients-portfolio/clients-portfolio.component';
 
 @NgModule({
   declarations: [
@@ -36,9 +33,7 @@ import { ClientsPortfolioComponent } from './clients-portfolio/clients-portfolio
     ProjyComponent,
     PortfolioComponent,
     FitairComponent,
-    FooterComponent,
-    ClientsComponent,
-    ClientsPortfolioComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +45,6 @@ import { ClientsPortfolioComponent } from './clients-portfolio/clients-portfolio
     HeaderBarComponent
   ],
   providers: [
-    AuthGuard
   ],
   bootstrap: [AppComponent]
 })

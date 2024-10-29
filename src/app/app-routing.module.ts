@@ -11,9 +11,6 @@ import { ProjyComponent } from './ux/projy/projy.component';
 import { MyheavenComponent } from './ux/myheaven/myheaven.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FitairComponent } from './ux/fitair/fitair.component';
-import { AuthGuard } from './auth-guard/auth-guard.component';
-import { ClientsComponent } from './clients/clients.component';
-import { ClientsPortfolioComponent } from './clients-portfolio/clients-portfolio.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -27,8 +24,6 @@ const routes: Routes = [
   { path: 'projy', component: ProjyComponent },
   { path: 'myheaven', component: MyheavenComponent },
   { path: 'fitair', component: FitairComponent },
-  { path: 'clients-portfolio', component: ClientsPortfolioComponent },
-  { path: 'clients', component: ClientsComponent, canActivate: [AuthGuard] }
 ];
 
 @NgModule({
